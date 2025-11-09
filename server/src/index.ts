@@ -2,10 +2,12 @@ import express from "express";
 import cors from "cors";
 
 const app = express();
-app.use(express.json());
 app.use(cors());
+app.use(express.json());
 
-const PORT = 3000;
-app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}...`);
+app.get("/api/news", async (req, res) => {
+  await new Promise(r => setTimeout(r, 20)); // 2 sec delay for loading
+  res.json({}); 
 });
+
+app.listen(3001, () => console.log("Server running on http://localhost:3001"));
