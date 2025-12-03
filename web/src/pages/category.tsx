@@ -14,7 +14,7 @@ export function Category() {
     <div>
       <Navbar />
       <div className="mx-[80px] mt-[45px] w-[1400px] space-y-[15px] rounded-[12px] bg-gray-100 p-4 flex justify-between items-center">
-        <div className="flex gap-[20px] relative top-[8px]">
+        <div className="flex gap-[20px] relative top-[8wpx]">
           <p className="text-[#F81539] text-[14px] font-medium">New</p>
           <p className=" text-[#3E3232BF] text-[14px] font-medium">Trendy</p>
           <p className=" text-[#3E3232BF] text-[14px] font-medium">Popular</p>
