@@ -1,5 +1,3 @@
-import React from "react";
-
 export function CategoryScroll() {
   const categories = [
     {
@@ -36,7 +34,7 @@ export function CategoryScroll() {
     }
   ];
   return (
-    <div className="w-[1400px] absolute  bg-[#F5F5F5] p-3 rounded-[10px] ml-[78px] mt-[40px]">
+    <div className="absolute mt-[40px] ml-[78px] w-[1400px] rounded-[10px] bg-[#F5F5F5] p-3">
       <div>
         <div className="scrollbar-hide flex gap-[30px] overflow-x-auto">
           {categories.map((cat, index) => (
@@ -68,8 +66,6 @@ export function CategoryScroll() {
           scrollbar-width: none;
         }
       `}</style>
-      
     </div>
-    
   );
 }

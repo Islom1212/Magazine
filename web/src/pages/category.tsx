@@ -13,12 +13,12 @@ export function Category() {
   return (
     <div>
       <Navbar />
-      <div className="mx-[80px] mt-[45px] w-[1400px] space-y-[15px] rounded-[12px] bg-gray-100 p-4 flex justify-between items-center">
-        <div className="flex gap-[20px] relative top-[8wpx]">
-          <p className="text-[#F81539] text-[14px] font-medium">New</p>
-          <p className=" text-[#3E3232BF] text-[14px] font-medium">Trendy</p>
-          <p className=" text-[#3E3232BF] text-[14px] font-medium">Popular</p>
-          <p className=" text-[#3E3232BF] text-[14px] font-medium">Top</p>
+      <div className="mx-[80px] mt-[45px] flex w-[1400px] items-center justify-between space-y-[15px] rounded-[12px] bg-gray-100 p-4">
+        <div className="relative top-[8wpx] flex gap-[20px]">
+          <p className="text-[14px] font-medium text-[#F81539]">New</p>
+          <p className="text-[14px] font-medium text-[#3E3232BF]">Trendy</p>
+          <p className="text-[14px] font-medium text-[#3E3232BF]">Popular</p>
+          <p className="text-[14px] font-medium text-[#3E3232BF]">Top</p>
         </div>
         <img src="/public/svgs/types.svg" alt="" />
       </div>

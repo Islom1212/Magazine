@@ -30,7 +30,7 @@ export function Navbar() {
   return (
     <nav className="flex items-center justify-between gap-[150px] px-[80px] pt-[40px]">
       <div className="z-[1] flex items-center space-x-[60px]">
-        <Link to="/">
+        <Link to="/home">
           <img src="/public/svgs/logo.svg" alt="" />
         </Link>
         <ul className="flex space-x-[30px]">
@@ -83,7 +83,7 @@ export function Navbar() {
             <button
               onClick={() => {
                 setOpenPages(!openPages);
-                setOpenCategory(false); 
+                setOpenCategory(false);
               }}
               className="flex cursor-pointer items-center gap-1"
             >
@@ -115,12 +115,12 @@ export function Navbar() {
             </Link>
           </li>
           <li>
-            <Link to="/writer" className="text-[16px] font-medium text-[#3E3232]">
+            <Link to="/contact" className="text-[16px] font-medium text-[#3E3232]">
               Contact us
             </Link>
           </li>
           <li>
-            <Link to="/writer" className="text-[16px] font-medium text-[#3E3232]">
+            <Link to="/about" className="text-[16px] font-medium text-[#3E3232]">
               About us
             </Link>
           </li>

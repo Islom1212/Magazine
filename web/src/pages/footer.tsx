@@ -29,7 +29,7 @@ export function Footer() {
     <div className="mt-[70px] w-full pr-[35px] pb-[40px]">
       <footer className="flex gap-[24px]">
         <div className="flex h-[483px] w-[808px] flex-col justify-center rounded-tr-[50px] rounded-br-[50px] bg-[#F5F5F5]">
-          <div className="flex gap-[113px] ml-[80px]">
+          <div className="ml-[80px] flex gap-[113px]">
             <div>
               <h3 className="mb-4 flex items-center text-lg font-bold text-gray-800">
                 <span className="mr-2 h-6 w-1 bg-red-500"></span>
@@ -47,15 +47,15 @@ export function Footer() {
                   <span className="mr-2 h-6 w-1 bg-red-500"></span>
                   Newsletters
                 </h4>
-                <div className="flex gap-2 bg-white px-[8px] py-[12px] rounded-[12px]">
+                <div className="flex gap-2 rounded-[12px] bg-white px-[8px] py-[12px]">
                   <input
                     type="email"
                     value={email}
                     onChange={e => setEmail(e.target.value)}
                     placeholder="Write Your Email..."
                     className="flex-1 rounded-lg text-sm focus:ring-2 focus:ring-gray-400 focus:outline-none"
-                  /> 
-                    <Mail className="w-[20px] h-[20px]"/>
+                  />
+                  <Mail className="h-[20px] w-[20px]" />
                 </div>
               </div>
             </div>
@@ -109,7 +109,7 @@ export function Footer() {
             <div>All Copyright © 2022 Reserved</div>
           </div>
         </div>
-        <div className="flex gap-[24px] mt-[30px]">
+        <div className="mt-[30px] flex gap-[24px]">
           <div>
             <h3 className="mb-4 flex items-center text-lg font-bold text-gray-800">
               <span className="mr-2 h-6 w-1 bg-red-500"></span>
@@ -117,7 +117,7 @@ export function Footer() {
             </h3>
             <div className="space-y-[20px]">
               {comments.map(comment => (
-                <div key={comment.name} className="w-[300px] h-[75px] p-[16px] bg-[#F5F5F5] rounded-[12px]">
+                <div key={comment.name} className="h-[75px] w-[300px] rounded-[12px] bg-[#F5F5F5] p-[16px]">
                   <h4 className="text-sm font-semibold text-gray-800">{comment.name}</h4>
                   <p className="mt-1 line-clamp-2 text-xs text-gray-600">{comment.text}</p>
                 </div>
@@ -133,10 +133,7 @@ export function Footer() {
             </h3>
             <div className="grid grid-cols-3 gap-[24px]">
               {instagramPosts.map(post => (
-                <div
-                  key={post.id}
-                  className={`${post.bg} w-[104px] h-[104px] rounded-[12px] hover:scale-105`}
-                ></div>
+                <div key={post.id} className={`${post.bg} h-[104px] w-[104px] rounded-[12px] hover:scale-105`}></div>
               ))}
             </div>
           </div>
