@@ -24,7 +24,7 @@ app.get("/api/categories", (req, res) => {
 app.get("/api/pages", (req, res) => {
   res.json([
     { id: 1, name: "Home", path: "/home" },
-    { id: 2, name: "Profile", path: "/profile" },
+    { id: 2, name: "Profile Market", path: "/profile" },
     { id: 4, name: "Category", path: "/category" },
   ]);
 });
