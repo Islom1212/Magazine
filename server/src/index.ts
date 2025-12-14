@@ -21,4 +21,13 @@ app.get("/api/categories", (req, res) => {
   ]);
 });
 
+app.get("/api/pages", (req, res) => {
+  res.json([
+    { id: 1, name: "Home Page", path: "/" },
+    { id: 2, name: "Single Page", path: "/single" },
+    { id: 3, name: "Category Page", path: "/category" },
+    { id: 4, name: "Writer Page", path: "/writer" },
+  ]);
+});
+
 app.listen(3001, () => console.log("Server running on http://localhost:3001"));
