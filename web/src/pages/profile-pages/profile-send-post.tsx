@@ -14,7 +14,7 @@ export function ProfileSendPost() {
             <input className="h-[35px] w-[470px] rounded-[12px] bg-[#f5f5f5] px-2" type="text" />
           </div>
         </div>
-        <p>Explanation</p>{" "}
+        <p>Explanation</p>
         <div className="flex flex-col gap-4 rounded-[12px] p-5 shadow-[0_8px_20px_rgba(0,0,0,0.25)]">
           <div className="flex gap-4">
             <button className="flex h-[35px] items-center gap-1 rounded-[12px] bg-[#F5F5F5] px-2 transition hover:bg-gray-200">
@@ -52,7 +52,7 @@ export function ProfileSendPost() {
 
       <div className="flex flex-col gap-[20px]">
         <p>Add Image</p>
-        <div className="flex h-[320px] w-[320px] flex-col items-center justify-center gap-[20px] bg-[#f5f5f5]">
+        <div className="flex h-[320px] w-[320px] flex-col items-center justify-center gap-[20px] rounded-[12px] border-2 border-dashed border-gray-400 bg-[#f5f5f5] transition-all duration-300">
           <img className="h-[96px] w-[120px]" src="/svgs/image-svg-2.svg" alt="image" />
           <p className="text-[#3E3232BF]">Drop image here, paste or</p>
           <button className="flex h-[40px] w-[104px] items-center justify-center gap-[6px] rounded-[12px] border border-gray-400 text-[#3E3232BF] transition hover:border-[#F81539] hover:shadow-sm">
