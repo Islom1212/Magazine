@@ -62,6 +62,7 @@ export function Home() {
           </div>
         </div>
       </div>
+
       <div className="space-y-[40px] py-[70px] pl-[80px]">
         <div className="flex items-center gap-[1180px]">
           <div className="flex items-center gap-[6px]">
@@ -112,7 +113,7 @@ export function Home() {
             </div>
           </div>
           <div className="h-[410px] w-[333px] rounded-2xl p-[10px] shadow-[0_1px_20px_rgba(0,0,0,0.1)]">
-            <img src="/public/svgs/post-1.svg" className="h-[190px] w-full rounded-[15px]" />
+            <img src="/public/svgs/photo-1.svg" className="h-[190px] w-full rounded-[15px]" />
 
             <div className="mt-4 ml-[5px] px-[5px]">
               <h2 className="text-[16px] font-semibold text-gray-900">Opening Day Of Boating Season, Seattle WA</h2>
@@ -149,7 +150,7 @@ export function Home() {
             </div>
           </div>
           <div className="h-[410px] w-[333px] rounded-2xl p-[10px] shadow-[0_1px_20px_rgba(0,0,0,0.1)]">
-            <img src="/public/svgs/post-1.svg" className="h-[190px] w-full rounded-[15px]" />
+            <img src="/public/svgs/photo-2.svg" className="h-[190px] w-full rounded-[15px]" />
 
             <div className="mt-4 ml-[5px] px-[5px]">
               <h2 className="text-[16px] font-semibold text-gray-900">Opening Day Of Boating Season, Seattle WA</h2>
@@ -186,7 +187,7 @@ export function Home() {
             </div>
           </div>
           <div className="h-[410px] w-[333px] rounded-2xl p-[10px] shadow-[0_1px_20px_rgba(0,0,0,0.1)]">
-            <img src="/public/svgs/post-1.svg" className="h-[190px] w-full rounded-[15px]" />
+            <img src="/public/svgs/photo-3.svg" className="h-[190px] w-full rounded-[15px]" />
 
             <div className="mt-4 ml-[5px] px-[5px]">
               <h2 className="text-[16px] font-semibold text-gray-900">Opening Day Of Boating Season, Seattle WA</h2>
@@ -224,6 +225,9 @@ export function Home() {
           </div>
         </div>
       </div>
+
+      <img src="/public/svgs/fudbol-news.svg" className="mb-[70px]" />
+
       <div className="space-y-[40px] pl-[80px]">
         <div className="flex items-center gap-[1180px]">
           <div className="flex items-center gap-[6px]">
@@ -464,6 +468,7 @@ export function Home() {
           </div>
         </div>
       </div>
+
       <div className="space-y-[40px] py-[70px] pl-[80px]">
         <div className="flex items-center gap-[1180px]">
           <div className="flex items-center gap-[6px]">
@@ -626,6 +631,9 @@ export function Home() {
           </div>
         </div>
       </div>
+
+      <img src="/public/svgs/wather.svg" className="mb-[70px]" />
+
       <div className="space-y-[40px] pl-[80px]">
         <div className="flex items-center gap-[1180px]">
           <div className="flex items-center gap-[6px]">
@@ -788,7 +796,8 @@ export function Home() {
           </div>
         </div>
       </div>
-      <Footer/>
+      
+      <Footer />
     </>
   );
 }

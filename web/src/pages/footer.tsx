@@ -26,7 +26,7 @@ export function Footer() {
   ];
 
   return (
-    <div className="mt-[70px] w-full pr-[35px] pb-[40px]">
+    <div className="mt-[70px] w-full pr-[35px] ">
       <footer className="flex gap-[24px]">
         <div className="flex h-[483px] w-[808px] flex-col justify-center rounded-tr-[50px] rounded-br-[50px] bg-[#F5F5F5]">
           <div className="flex gap-[113px] ml-[80px]">
