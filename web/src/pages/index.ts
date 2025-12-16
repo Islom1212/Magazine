@@ -1,0 +1,16 @@
+export { Home } from "./home";
+export { Loading } from "./loading";
+export { Single } from "./single";
+export { Category } from "./category";
+export { CategoryScroll } from "./scroll-category";
+export { Writer } from "./writer";
+export { Navbar } from "./navbar";
+export { Footer } from "./footer";
+export { About } from "./about";
+export { Contact } from "./contact";
+export { NotFound } from "./not-found";
+export { ProfileMarket } from "./profile-pages/profile-market";
+export { ProfileSendPost } from "./profile-pages/profile-send-post";
+export { ProfileSendVideo } from "./profile-pages/profile-send-video";
+export { ProfilePosts } from "./profile-pages/profile-posts";
+export { ProfileEdit } from "./profile-pages/profile-edit";
