@@ -61,7 +61,7 @@ export function Contact() {
           <div className="flex flex-col gap-[10px]">
             <p>Add Image</p>
             <div className="flex h-[435px] w-[380px] flex-col items-center justify-center gap-[20px] rounded-[12px] border-2 border-dashed border-gray-400 bg-[#f5f5f5] transition-all duration-300">
-              <img className="h-[96px] w-[120px]" src="/papka.svg" alt="papka" />
+              <img className="h-[96px] w-[120px]" src="/svgs/papka.svg" alt="papka" />
               <p className="text-[#3E3232BF]">Drop image here, paste or</p>
               <button className="flex h-[40px] w-[104px] items-center justify-center gap-[6px] rounded-[12px] border border-gray-400 text-[#3E3232BF] transition hover:border-[#F81539] hover:shadow-sm">
                 <img src="/svgs/plus.svg" alt="plus" />

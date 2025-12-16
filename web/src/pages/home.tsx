@@ -112,7 +112,7 @@ export function Home() {
             </div>
           </div>
           <div className="h-[410px] w-[333px] rounded-2xl p-[10px] shadow-[0_1px_20px_rgba(0,0,0,0.1)]">
-            <img src="/public/svgs/post-1.svg" className="h-[190px] w-full rounded-[15px]" />
+            <img src="/public/svgs/03.png" className="h-[190px] w-full rounded-[15px]" />
 
             <div className="mt-4 ml-[5px] px-[5px]">
               <h2 className="text-[16px] font-semibold text-gray-900">Opening Day Of Boating Season, Seattle WA</h2>
@@ -149,7 +149,7 @@ export function Home() {
             </div>
           </div>
           <div className="h-[410px] w-[333px] rounded-2xl p-[10px] shadow-[0_1px_20px_rgba(0,0,0,0.1)]">
-            <img src="/public/svgs/post-1.svg" className="h-[190px] w-full rounded-[15px]" />
+            <img src="/public/svgs/02.png" className="h-[190px] w-full rounded-[15px]" />
 
             <div className="mt-4 ml-[5px] px-[5px]">
               <h2 className="text-[16px] font-semibold text-gray-900">Opening Day Of Boating Season, Seattle WA</h2>
@@ -186,7 +186,7 @@ export function Home() {
             </div>
           </div>
           <div className="h-[410px] w-[333px] rounded-2xl p-[10px] shadow-[0_1px_20px_rgba(0,0,0,0.1)]">
-            <img src="/public/svgs/post-1.svg" className="h-[190px] w-full rounded-[15px]" />
+            <img src="/public/svgs/07.png" className="h-[190px] w-full rounded-[15px]" />
 
             <div className="mt-4 ml-[5px] px-[5px]">
               <h2 className="text-[16px] font-semibold text-gray-900">Opening Day Of Boating Season, Seattle WA</h2>
@@ -224,6 +224,9 @@ export function Home() {
           </div>
         </div>
       </div>
+
+      <img src="./svgs/fodbol-news.svg" className="mb-[70px]" />
+
       <div className="space-y-[40px] pl-[80px]">
         <div className="flex items-center gap-[1180px]">
           <div className="flex items-center gap-[6px]">
@@ -464,6 +467,65 @@ export function Home() {
           </div>
         </div>
       </div>
+
+      <div className="mt-[80px] w-full space-y-[40px] bg-[#F5F5F5] py-[40px] pl-[80px]">
+        <div className="flex items-center gap-[1170px]">
+          <div className="flex items-center gap-[6px]">
+            <div className="mt-[2px] h-3 w-1 rounded-2xl bg-[#F81539]"></div>
+            <h1 className="text-[20px] font-medium">Latest videos</h1>
+          </div>
+          <div className="flex items-center gap-[20px]">
+            <img src="/public/svgs/left.svg" alt="" />
+            <img src="/public/svgs/right.svg" alt="" />
+          </div>
+        </div>
+        <div className="flex gap-[24px] items-center">
+          <div
+            className="flex h-[452px] w-[660px] flex-col items-center justify-end gap-[50px] rounded-[12px] p-[10px]"
+            style={{
+              backgroundImage: `url('../public/svgs/video-img.svg')`,
+              backgroundSize: "cover",
+              backgroundPosition: "center"
+            }}
+          >
+            <img src="/public/svgs/play.svg" alt="" />
+            <div className="w-full rounded-[8px] bg-[#ffffffbd] p-[16px]">
+              <h1 className="text-[19px] font-medium">
+                How Music Affects Your Brain (Plus 11 Artists To Listen To At Work)
+              </h1>
+              <p className="font-400 text-[12px] text-[#000000BF]">
+                You’ve read all your free member-only stories, become a member to get unlimited access. Your membership
+                fee supports the voices you want to hear more from.
+              </p>
+            </div>
+          </div>
+          <div className="mb-[20px] space-y-[30px]">
+            <div className="p-[10px] bg-white mt-[20px] flex w-[488px] items-center gap-[10px] rounded-2xl">
+              <img src="/public/svgs/boks.svg" className="rounded-[12px]" />
+              <div>
+                <h1 className="text-[16px] font-medium text-[#3E3232]">5 reasons why you should wrap...</h1>
+                <p className="mt-[10px] text-[14px] text-[#3E3232BF]">
+                  So, you finally went to your first boxing class and learned the basics of the sport. You also learned
+                  that it’s recommended to wrap your hands before putting on the gloves. But there are times when you
+                  just...
+                </p>
+              </div>
+            </div>
+            <div className="p-[10px] bg-white mt-[20px] flex w-[488px] items-center gap-[10px] rounded-2xl">
+              <img src="/public/svgs/airpods.svg" className="rounded-[12px]" />
+              <div>
+                <h1 className="text-[16px] font-medium text-[#3E3232]">5 reasons why you should wrap...</h1>
+                <p className="mt-[10px] text-[14px] text-[#3E3232BF]">
+                  So, you finally went to your first boxing class and learned the basics of the sport. You also learned
+                  that it’s recommended to wrap your hands before putting on the gloves. But there are times when you
+                  just...
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div className="space-y-[40px] py-[70px] pl-[80px]">
         <div className="flex items-center gap-[1180px]">
           <div className="flex items-center gap-[6px]">
@@ -626,6 +688,9 @@ export function Home() {
           </div>
         </div>
       </div>
+
+      <img src="./svgs/weather.svg" alt="weather" className="mb-[70px]" />
+
       <div className="space-y-[40px] pl-[80px]">
         <div className="flex items-center gap-[1180px]">
           <div className="flex items-center gap-[6px]">

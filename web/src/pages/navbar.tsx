@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { useEffect, useState } from "react";
 
 type Category = {
@@ -11,11 +11,13 @@ type Page = {
   name: string;
   path: string;
 };
+
 export function Navbar() {
   const [categories, setCategories] = useState<Category[]>([]);
   const [pages, setPages] = useState<Page[]>([]);
   const [openCategory, setOpenCategory] = useState(false);
   const [openPages, setOpenPages] = useState(false);
+  const [user, setUser] = useState<string | null>(null);
 
   useEffect(() => {
     fetch("http://localhost:3001/api/categories")
@@ -25,14 +27,25 @@ export function Navbar() {
     fetch("http://localhost:3001/api/pages")
       .then(res => res.json())
       .then((data: Page[]) => setPages(data));
+
+    const current = localStorage.getItem("currentUser");
+    setUser(current);
   }, []);
+
+  const handleLogout = () => {
+    localStorage.removeItem("isAuth");
+    localStorage.removeItem("currentUser");
+    setUser(null);
+    window.location.href = "/login";
+  };
 
   return (
     <nav className="flex items-center justify-between gap-[150px] px-[80px] pt-[40px]">
-      <div className="z-[1] flex items-center space-x-[60px]">
+      <div className="flex items-center space-x-[60px]">
         <Link to="/home">
-          <img src="/public/svgs/logo.svg" alt="" />
+          <img src="/public/svgs/logo.svg" alt="Logo" />
         </Link>
+
         <ul className="flex space-x-[30px]">
           <li className="relative">
             <button
@@ -40,7 +53,7 @@ export function Navbar() {
                 setOpenCategory(!openCategory);
                 setOpenPages(false);
               }}
-              className="flex cursor-pointer items-center gap-1"
+              className="flex cursor-pointer items-center gap-1 font-medium text-gray-800"
             >
               Categories
               <span
@@ -52,27 +65,15 @@ export function Navbar() {
 
             {openCategory && (
               <ul className="absolute left-0 z-50 mt-2 w-48 rounded-md bg-white p-2 shadow-lg">
-                {categories.map((cat, i) => (
+                {categories.map(cat => (
                   <li key={cat.id}>
-                    {i === 2 ? (
-                      <Link
-                        to="/single"
-                        className="block rounded px-3 py-2 hover:bg-gray-100"
-                        onClick={() => setOpenCategory(false)}
-                      >
-                        {cat.name}
-                      </Link>
-                    ) : i === 4 ? (
-                      <Link
-                        to="/category"
-                        className="block rounded px-3 py-2 hover:bg-gray-100"
-                        onClick={() => setOpenCategory(false)}
-                      >
-                        {cat.name}
-                      </Link>
-                    ) : (
-                      <span className="block cursor-default px-3 py-2 text-gray-500">{cat.name}</span>
-                    )}
+                    <Link
+                      to={cat.path}
+                      className="block rounded px-3 py-2 hover:bg-gray-100"
+                      onClick={() => setOpenCategory(false)}
+                    >
+                      {cat.name}
+                    </Link>
                   </li>
                 ))}
               </ul>
@@ -85,7 +86,7 @@ export function Navbar() {
                 setOpenPages(!openPages);
                 setOpenCategory(false);
               }}
-              className="flex cursor-pointer items-center gap-1"
+              className="flex cursor-pointer items-center gap-1 font-medium text-gray-800"
             >
               Pages
               <span className={`transform transition-transform duration-200 ${openPages ? "rotate-180" : "rotate-0"}`}>
@@ -110,32 +111,42 @@ export function Navbar() {
             )}
           </li>
           <li>
-            <Link to="/writer" className="text-[16px] font-medium text-[#3E3232]">
-              Writer
-            </Link>
-          </li>
-          <li>
-            <Link to="/contact" className="text-[16px] font-medium text-[#3E3232]">
+            <Link to="/contact" className="text-[16px] font-medium text-gray-800">
               Contact us
             </Link>
           </li>
           <li>
-            <Link to="/about" className="text-[16px] font-medium text-[#3E3232]">
+            <Link to="/about" className="text-[16px] font-medium text-gray-800">
               About us
             </Link>
           </li>
         </ul>
       </div>
+
       <div className="flex items-center gap-6">
-        <div className="flex items-center gap-[20px] rounded-[10px] border bg-[#eeeded] px-4 py-2">
-          <img src="../public/svgs/v6-icon.svg" alt="" />
-          <input type="search" placeholder="Search anything" className="w-[250px]" />
-          <img src="../public/svgs/search.svg" alt="" />
+        <div className="flex items-center gap-[10px] rounded-[10px] border bg-[#eeeded] px-4 py-2">
+          <img src="../public/svgs/v6-icon.svg" alt="icon" />
+          <input
+            type="search"
+            placeholder="Search anything"
+            className="w-[250px] bg-transparent text-gray-700 outline-none"
+          />
+          <img src="../public/svgs/search.svg" alt="search" />
         </div>
-        <div className="flex items-center justify-center gap-[10px]">
-          <img src="../public/svgs/avatar.svg" alt="" />
-          <p className="text-[16px] font-medium text-[#3E3232]">Behzad</p>
-          <button className="cursor-pointer">▾</button>
+
+        <div className="relative flex items-center gap-[10px]">
+          <img src="../public/svgs/avatar.svg" alt="avatar" className="h-8 w-8 rounded-full" />
+          <NavLink className="text-[16px] font-medium text-gray-800" to={"/profile-edit"}>
+            {user}
+          </NavLink>
+          {user && (
+            <button
+              className="ml-2 rounded-[12px] bg-red-400 px-[10px] py-[5px] text-white hover:bg-red-500"
+              onClick={handleLogout}
+            >
+              Logout
+            </button>
+          )}
         </div>
       </div>
     </nav>
