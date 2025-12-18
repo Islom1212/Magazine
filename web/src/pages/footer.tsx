@@ -14,15 +14,15 @@ export function Footer() {
   ];
 
   const instagramPosts = [
-    { id: 1, bg: "bg-gradient-to-br from-purple-400 to-pink-400" },
-    { id: 2, bg: "bg-gradient-to-br from-yellow-400 to-orange-500" },
-    { id: 3, bg: "bg-gradient-to-br from-indigo-500 to-purple-600" },
-    { id: 4, bg: "bg-gradient-to-br from-orange-400 to-yellow-300" },
-    { id: 5, bg: "bg-gradient-to-br from-blue-400 to-cyan-400" },
-    { id: 6, bg: "bg-gradient-to-br from-red-400 to-pink-500" },
-    { id: 7, bg: "bg-gradient-to-br from-pink-500 to-rose-500" },
-    { id: 8, bg: "bg-gradient-to-br from-purple-500 to-pink-600" },
-    { id: 9, bg: "bg-gradient-to-br from-indigo-600 to-blue-500" }
+    { id: 1, src: "/svgs/instagram1.svg" },
+    { id: 2, src: "/svgs/instagram2.svg" },
+    { id: 3, src: "/svgs/instagram3.svg" },
+    { id: 4, src: "/svgs/instagram4.svg" },
+    { id: 5, src: "/svgs/instagram5.svg" },
+    { id: 6, src: "/svgs/instagram6.svg" },
+    { id: 7, src: "/svgs/instagram7.svg" },
+    { id: 8, src: "/svgs/instagram8.svg" },
+    { id: 9, src: "/svgs/instagram9.svg" }
   ];
 
   return (
@@ -133,7 +133,12 @@ export function Footer() {
             </h3>
             <div className="grid grid-cols-3 gap-[24px]">
               {instagramPosts.map(post => (
-                <div key={post.id} className={`${post.bg} h-[104px] w-[104px] rounded-[12px] hover:scale-105`}></div>
+                <img
+                  key={post.id}
+                  className={`h-[104px] w-[104px] rounded-[12px] hover:scale-105`}
+                  src={post.src}
+                  alt="Instagram Post"
+                ></img>
               ))}
             </div>
           </div>
