@@ -274,7 +274,7 @@ export function Home() {
               </div>
             </div>
             <div className="flex h-[210px] w-[690px] rounded-2xl p-[10px] shadow-[0_1px_20px_rgba(0,0,0,0.1)]">
-              <img src="/public/svgs/phone.svg" className="h-[190px] w-[340px] rounded-[15px]" />
+              <img src="/public/svgs/phone-3.svg" className="h-[190px] w-[340px] rounded-[15px]" />
 
               <div className="mt-4 ml-[5px] px-[5px]">
                 <h2 className="text-[16px] font-semibold text-gray-900">12 Mobile UX Design Trends For 2018</h2>
@@ -311,7 +311,7 @@ export function Home() {
               </div>
             </div>
             <div className="flex h-[210px] w-[690px] rounded-2xl p-[10px] shadow-[0_1px_20px_rgba(0,0,0,0.1)]">
-              <img src="/public/svgs/phone.svg" className="h-[190px] w-[340px] rounded-[15px]" />
+              <img src="/public/svgs/phone-5.svg" className="h-[190px] w-[340px] rounded-[15px]" />
 
               <div className="mt-4 ml-[5px] px-[5px]">
                 <h2 className="text-[16px] font-semibold text-gray-900">12 Mobile UX Design Trends For 2018</h2>
@@ -350,7 +350,7 @@ export function Home() {
           </div>
           <div className="flex flex-col gap-[24px]">
             <div className="flex h-[210px] w-[690px] rounded-2xl p-[10px] shadow-[0_1px_20px_rgba(0,0,0,0.1)]">
-              <img src="/public/svgs/phone.svg" className="h-[190px] w-[340px] rounded-[15px]" />
+              <img src="/public/svgs/phone-2-2.svg" className="h-[190px] w-[340px] rounded-[15px]" />
 
               <div className="mt-4 ml-[5px] px-[5px]">
                 <h2 className="text-[16px] font-semibold text-gray-900">12 Mobile UX Design Trends For 2018</h2>
@@ -387,7 +387,7 @@ export function Home() {
               </div>
             </div>
             <div className="flex h-[210px] w-[690px] rounded-2xl p-[10px] shadow-[0_1px_20px_rgba(0,0,0,0.1)]">
-              <img src="/public/svgs/phone.svg" className="h-[190px] w-[340px] rounded-[15px]" />
+              <img src="/public/svgs/phone-4.svg" className="h-[190px] w-[340px] rounded-[15px]" />
 
               <div className="mt-4 ml-[5px] px-[5px]">
                 <h2 className="text-[16px] font-semibold text-gray-900">12 Mobile UX Design Trends For 2018</h2>
@@ -424,7 +424,7 @@ export function Home() {
               </div>
             </div>
             <div className="flex h-[210px] w-[690px] rounded-2xl p-[10px] shadow-[0_1px_20px_rgba(0,0,0,0.1)]">
-              <img src="/public/svgs/phone.svg" className="h-[190px] w-[340px] rounded-[15px]" />
+              <img src="/public/svgs/phone-6.svg" className="h-[190px] w-[340px] rounded-[15px]" />
 
               <div className="mt-4 ml-[5px] px-[5px]">
                 <h2 className="text-[16px] font-semibold text-gray-900">12 Mobile UX Design Trends For 2018</h2>
@@ -694,158 +694,158 @@ export function Home() {
             <img src="/public/svgs/right.svg" alt="" />
           </div>
         </div>
-      <div className="mt-[25px]">
-        <div className="flex items-center gap-[24px]">
-          <div className="h-[410px] w-[333px] rounded-2xl p-[10px] shadow-[0_1px_20px_rgba(0,0,0,0.1)]">
-            <img src="/public/svgs/egg.svg" className="h-[190px] w-full rounded-[15px]" />
+        <div className="mt-[25px]">
+          <div className="flex items-center gap-[24px]">
+            <div className="h-[410px] w-[333px] rounded-2xl p-[10px] shadow-[0_1px_20px_rgba(0,0,0,0.1)]">
+              <img src="/public/svgs/egg.svg" className="h-[190px] w-full rounded-[15px]" />
 
-            <div className="mt-4 ml-[5px] px-[5px]">
-              <h2 className="text-[16px] font-semibold text-gray-900">Opening Day Of Boating Season, Seattle WA</h2>
+              <div className="mt-4 ml-[5px] px-[5px]">
+                <h2 className="text-[16px] font-semibold text-gray-900">Opening Day Of Boating Season, Seattle WA</h2>
 
-              <p className="mt-2 text-[12px] leading-[100%] text-gray-500">
-                Of course the Puget Sound is very watery, and where there is water, there are boats. Today is…
-              </p>
-            </div>
-            <div className="mt-5 flex items-center justify-between rounded-xl bg-gray-100 p-4">
-              <div className="flex items-center gap-3">
-                <img src="/public/svgs/james.svg" alt="author" className="h-10 w-10 rounded-[12px] object-cover" />
-                <div>
-                  <p className="font-medium text-gray-800">James</p>
-                  <p className="text-xs text-gray-500">August 18, 2022</p>
-                </div>
+                <p className="mt-2 text-[12px] leading-[100%] text-gray-500">
+                  Of course the Puget Sound is very watery, and where there is water, there are boats. Today is…
+                </p>
               </div>
-
-              <button className="text-gray-500 hover:text-gray-700">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-6 w-6"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  strokeWidth="1.5"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M17.25 6.75V21L12 17.25 6.75 21V6.75A2.25 2.25 0 0 1 9 4.5h6a2.25 2.25 0 0 1 2.25 2.25Z"
-                  />
-                </svg>
-              </button>
-            </div>
-          </div>
-          <div className="h-[410px] w-[333px] rounded-2xl p-[10px] shadow-[0_1px_20px_rgba(0,0,0,0.1)]">
-            <img src="/public/svgs/board.svg" className="h-[190px] w-full rounded-[15px]" />
-
-            <div className="mt-4 ml-[5px] px-[5px]">
-              <h2 className="text-[16px] font-semibold text-gray-900">Opening Day Of Boating Season, Seattle WA</h2>
-
-              <p className="mt-2 text-[12px] leading-[100%] text-gray-500">
-                Of course the Puget Sound is very watery, and where there is water, there are boats. Today is…
-              </p>
-            </div>
-            <div className="mt-5 flex items-center justify-between rounded-xl bg-gray-100 p-4">
-              <div className="flex items-center gap-3">
-                <img src="/public/svgs/jon-2.svg" alt="author" className="h-10 w-10 rounded-[12px] object-cover" />
-                <div>
-                  <p className="font-medium text-gray-800">James</p>
-                  <p className="text-xs text-gray-500">August 18, 2022</p>
+              <div className="mt-5 flex items-center justify-between rounded-xl bg-gray-100 p-4">
+                <div className="flex items-center gap-3">
+                  <img src="/public/svgs/james.svg" alt="author" className="h-10 w-10 rounded-[12px] object-cover" />
+                  <div>
+                    <p className="font-medium text-gray-800">James</p>
+                    <p className="text-xs text-gray-500">August 18, 2022</p>
+                  </div>
                 </div>
+
+                <button className="text-gray-500 hover:text-gray-700">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="h-6 w-6"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    strokeWidth="1.5"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M17.25 6.75V21L12 17.25 6.75 21V6.75A2.25 2.25 0 0 1 9 4.5h6a2.25 2.25 0 0 1 2.25 2.25Z"
+                    />
+                  </svg>
+                </button>
               </div>
-
-              <button className="text-gray-500 hover:text-gray-700">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-6 w-6"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  strokeWidth="1.5"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M17.25 6.75V21L12 17.25 6.75 21V6.75A2.25 2.25 0 0 1 9 4.5h6a2.25 2.25 0 0 1 2.25 2.25Z"
-                  />
-                </svg>
-              </button>
             </div>
-          </div>
-          <div className="h-[410px] w-[333px] rounded-2xl p-[10px] shadow-[0_1px_20px_rgba(0,0,0,0.1)]">
-            <img src="/public/svgs/technology.svg" className="h-[190px] w-full rounded-[15px]" />
+            <div className="h-[410px] w-[333px] rounded-2xl p-[10px] shadow-[0_1px_20px_rgba(0,0,0,0.1)]">
+              <img src="/public/svgs/board.svg" className="h-[190px] w-full rounded-[15px]" />
 
-            <div className="mt-4 ml-[5px] px-[5px]">
-              <h2 className="text-[16px] font-semibold text-gray-900">Opening Day Of Boating Season, Seattle WA</h2>
+              <div className="mt-4 ml-[5px] px-[5px]">
+                <h2 className="text-[16px] font-semibold text-gray-900">Opening Day Of Boating Season, Seattle WA</h2>
 
-              <p className="mt-2 text-[12px] leading-[100%] text-gray-500">
-                Of course the Puget Sound is very watery, and where there is water, there are boats. Today is…
-              </p>
-            </div>
-            <div className="mt-5 flex items-center justify-between rounded-xl bg-gray-100 p-4">
-              <div className="flex items-center gap-3">
-                <img src="/public/svgs/louis.svg" alt="author" className="h-10 w-10 rounded-[12px] object-cover" />
-                <div>
-                  <p className="font-medium text-gray-800">James</p>
-                  <p className="text-xs text-gray-500">August 18, 2022</p>
+                <p className="mt-2 text-[12px] leading-[100%] text-gray-500">
+                  Of course the Puget Sound is very watery, and where there is water, there are boats. Today is…
+                </p>
+              </div>
+              <div className="mt-5 flex items-center justify-between rounded-xl bg-gray-100 p-4">
+                <div className="flex items-center gap-3">
+                  <img src="/public/svgs/jon-2.svg" alt="author" className="h-10 w-10 rounded-[12px] object-cover" />
+                  <div>
+                    <p className="font-medium text-gray-800">James</p>
+                    <p className="text-xs text-gray-500">August 18, 2022</p>
+                  </div>
                 </div>
+
+                <button className="text-gray-500 hover:text-gray-700">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="h-6 w-6"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    strokeWidth="1.5"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M17.25 6.75V21L12 17.25 6.75 21V6.75A2.25 2.25 0 0 1 9 4.5h6a2.25 2.25 0 0 1 2.25 2.25Z"
+                    />
+                  </svg>
+                </button>
               </div>
-
-              <button className="text-gray-500 hover:text-gray-700">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-6 w-6"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  strokeWidth="1.5"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M17.25 6.75V21L12 17.25 6.75 21V6.75A2.25 2.25 0 0 1 9 4.5h6a2.25 2.25 0 0 1 2.25 2.25Z"
-                  />
-                </svg>
-              </button>
             </div>
-          </div>
-          <div className="h-[410px] w-[333px] rounded-2xl p-[10px] shadow-[0_1px_20px_rgba(0,0,0,0.1)]">
-            <img src="/public/svgs/food.svg" className="h-[190px] w-full rounded-[15px]" />
+            <div className="h-[410px] w-[333px] rounded-2xl p-[10px] shadow-[0_1px_20px_rgba(0,0,0,0.1)]">
+              <img src="/public/svgs/technology.svg" className="h-[190px] w-full rounded-[15px]" />
 
-            <div className="mt-4 ml-[5px] px-[5px]">
-              <h2 className="text-[16px] font-semibold text-gray-900">Opening Day Of Boating Season, Seattle WA</h2>
+              <div className="mt-4 ml-[5px] px-[5px]">
+                <h2 className="text-[16px] font-semibold text-gray-900">Opening Day Of Boating Season, Seattle WA</h2>
 
-              <p className="mt-2 text-[12px] leading-[100%] text-gray-500">
-                Of course the Puget Sound is very watery, and where there is water, there are boats. Today is…
-              </p>
-            </div>
-            <div className="mt-5 flex items-center justify-between rounded-xl bg-gray-100 p-4">
-              <div className="flex items-center gap-3">
-                <img src="/public/svgs/jon-2.svg" alt="author" className="h-10 w-10 rounded-[12px] object-cover" />
-                <div>
-                  <p className="font-medium text-gray-800">James</p>
-                  <p className="text-xs text-gray-500">August 18, 2022</p>
+                <p className="mt-2 text-[12px] leading-[100%] text-gray-500">
+                  Of course the Puget Sound is very watery, and where there is water, there are boats. Today is…
+                </p>
+              </div>
+              <div className="mt-5 flex items-center justify-between rounded-xl bg-gray-100 p-4">
+                <div className="flex items-center gap-3">
+                  <img src="/public/svgs/louis.svg" alt="author" className="h-10 w-10 rounded-[12px] object-cover" />
+                  <div>
+                    <p className="font-medium text-gray-800">James</p>
+                    <p className="text-xs text-gray-500">August 18, 2022</p>
+                  </div>
                 </div>
-              </div>
 
-              <button className="text-gray-500 hover:text-gray-700">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-6 w-6"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  strokeWidth="1.5"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M17.25 6.75V21L12 17.25 6.75 21V6.75A2.25 2.25 0 0 1 9 4.5h6a2.25 2.25 0 0 1 2.25 2.25Z"
-                  />
-                </svg>
-              </button>
+                <button className="text-gray-500 hover:text-gray-700">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="h-6 w-6"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    strokeWidth="1.5"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M17.25 6.75V21L12 17.25 6.75 21V6.75A2.25 2.25 0 0 1 9 4.5h6a2.25 2.25 0 0 1 2.25 2.25Z"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <div className="h-[410px] w-[333px] rounded-2xl p-[10px] shadow-[0_1px_20px_rgba(0,0,0,0.1)]">
+              <img src="/public/svgs/food.svg" className="h-[190px] w-full rounded-[15px]" />
+
+              <div className="mt-4 ml-[5px] px-[5px]">
+                <h2 className="text-[16px] font-semibold text-gray-900">Opening Day Of Boating Season, Seattle WA</h2>
+
+                <p className="mt-2 text-[12px] leading-[100%] text-gray-500">
+                  Of course the Puget Sound is very watery, and where there is water, there are boats. Today is…
+                </p>
+              </div>
+              <div className="mt-5 flex items-center justify-between rounded-xl bg-gray-100 p-4">
+                <div className="flex items-center gap-3">
+                  <img src="/public/svgs/jon-2.svg" alt="author" className="h-10 w-10 rounded-[12px] object-cover" />
+                  <div>
+                    <p className="font-medium text-gray-800">James</p>
+                    <p className="text-xs text-gray-500">August 18, 2022</p>
+                  </div>
+                </div>
+
+                <button className="text-gray-500 hover:text-gray-700">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="h-6 w-6"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    strokeWidth="1.5"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M17.25 6.75V21L12 17.25 6.75 21V6.75A2.25 2.25 0 0 1 9 4.5h6a2.25 2.25 0 0 1 2.25 2.25Z"
+                    />
+                  </svg>
+                </button>
+              </div>
             </div>
           </div>
         </div>
-      </div>
       </div>
       <Footer />
     </>
